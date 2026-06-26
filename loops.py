@@ -12,12 +12,16 @@
 #     total = total + x
 #     x += 1
 # print(total)
-items = [2, 4, 6, 8]
-x = 0
-while x < len(items):
-    num = items[x]
-    if num > 5:
-        print(num)    
-        break
-    x += 1
-
+# items = [2, 4, 6, 8]
+# x = 0
+# while x < len(items):
+#     num = items[x]
+#     if num > 5:
+#         print(num)    
+#         break
+#     x += 1
+i = 0
+while i < 10:
+    if i % 2 == 0:
+        print(i)
+    i += 1
