@@ -20,8 +20,13 @@
 #         print(num)    
 #         break
 #     x += 1
-i = 0
-while i < 10:
-    if i % 2 == 0:
-        print(i)
+# i = 0
+# while i < 11:
+#     if i % 2 == 0:
+#         print(i)
+#     i += 1
+agents = ["alpha", "bravo", "charly"]
+i = 0 
+while i < len(agents):
+    print(agents[i])
     i += 1
