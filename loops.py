@@ -25,8 +25,16 @@
 #     if i % 2 == 0:
 #         print(i)
 #     i += 1
-agents = ["alpha", "bravo", "charly"]
-i = 0 
-while i < len(agents):
-    print(agents[i])
-    i += 1
+# agents = ["alpha", "bravo", "charly"]
+# i = 0 
+# while i < len(agents):
+#     print(agents[i])
+#     i += 1
+scores = {"alpha": 80, "bravo": 70, "charli": 95}
+items = list(scores.items())
+x = 0
+while x < len(items):
+    name = items[x][0]
+    score = items[x][1]
+    print(name, score)
+    x+=1
