@@ -38,7 +38,8 @@
 #     score = items[x][1]
 #     print(name, score)
 #     x+=1
-start = 1
+#
+start = 1 
 while start < 100:
-    print(start * 2)
-    start += 1
+    start *= 2
+print(start)
