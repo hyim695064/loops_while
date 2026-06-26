@@ -30,11 +30,15 @@
 # while i < len(agents):
 #     print(agents[i])
 #     i += 1
-scores = {"alpha": 80, "bravo": 70, "charli": 95}
-items = list(scores.items())
-x = 0
-while x < len(items):
-    name = items[x][0]
-    score = items[x][1]
-    print(name, score)
-    x+=1
+# scores = {"alpha": 80, "bravo": 70, "charli": 95}
+# items = list(scores.items())
+# x = 0
+# while x < len(items):
+#     name = items[x][0]
+#     score = items[x][1]
+#     print(name, score)
+#     x+=1
+start = 1
+while start < 100:
+    print(start * 2)
+    start += 1
