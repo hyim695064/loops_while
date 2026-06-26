@@ -39,7 +39,16 @@
 #     print(name, score)
 #     x+=1
 #
-start = 1 
-while start < 100:
-    start *= 2
-print(start)
+# start = 1 
+# while start < 100:
+#     start *= 2
+# print(start)
+data = [3, 7, 2, -1, 5]
+total = 0 
+i = 0
+while i < len(total):
+    if data[i] == -1:
+        break
+    total += data[i]
+    i += 1
+print(total)
