@@ -53,8 +53,13 @@
 #     i += 1
 # print(total)
 
-n = 10 
-x = 1
-while x <= 10:
-    print(n * x)
-    x += 1
+# n = 10 
+# x = 1
+# while x <= 10:
+#     print(n * x)
+#     x += 1
+
+items = ["a", "x", "b", "x", "x"]
+while "x" in items:
+    items.remove("x")
+    print(items)
